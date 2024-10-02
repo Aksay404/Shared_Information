@@ -1,1 +1,67 @@
 
+ CPU / İşlemci
+Bilgisayardakı tüm işlemler CPU da yapılır.
+CPU işlemleri küçük parcalara bölerek işler.Bu parşalara döngü (LOOP) adı verilir.
+Bİlgisayarın aynı anda (bir birim zamanda ) işlaye bildiği döngü sayısı o işlemcinin hızını belirler.
+
+==>>> Mesela 2GHz lik hıza sahip bir işlemci saniyede 2 milyar döngü işleyebilir.Yani 20 saniyelik bir işlem gerektiren 100.000.000 
+döngün işleyebilir.
+
+İşlemci bu yaptığı her  işlemde matematiksel hesaplama yapar.
+
+  İşlemci aynı anda çok sayıda veri işlediği için daha verimli çalışması için, viri işlenmesini bir kaç aşamada yapması için
+kendi içerisinde  7 adet temel birime bölünür.
+  1.Control unit (Kontrol ünitesi)
+  2.Prefetch unit (Önceden getirme ünitesi)
+  3.Decode unit (Kod çözme ünitesi)
+  4.Execution unit (Çalıştırma ünitesi)
+  5.Register (Karalama defteri)
+  6.Cache (Önbellek)
+  7.Bus interface unit (Veri arayüzü (giriş-çıkış) ünitesi)
+
+    1. Control unit
+Bu birim işlemciye gelen ve işlemciden işlenerek çıkan işlemleri organize eder.
+    
+    2.Prefetch unit
+Prefetch unit işlemciye yani Execution unit e komut (İnstruction) gönderir.
+    
+    3.Decode unit 
+Decode unit veriyi Execution unit e göndermeden önce alt parçalara (thread) böler.
+Çözümleme işini yapar.
+    
+    4.Execution unit 
+Bu birim kendisi de iki bölümden oluşur.
+       
+        ALU (Aritmatic Logic Unit) -  Aritmatik Mantık Ünitesii
+            Mantıksal ve temel seviyye matematiksel hesapları işler 
+        
+        FPU (Floating Point Unit) - Kaydırma Noktası Ünitesi
+            İleri seviyye mantıksal hesaplamaları (küsürat alma ve s.) işler
+  
+        
+        ==>>> İşlemcide ileri seviyye hesaplamalar daha az yapıldığından dolayı genelde FPU tekdir
+
+    5.Register
+Register Control unit ve Execution unit işin geçici görevini yapar.Kendisi karalama defteridir.
+
+    6.Cache
+Cache işlemciyle aynı hızda çalışan önbellektir.İşlemcinin not defteridir, işlemci için görev listesidir.
+İşlem yapılırken en sık kullanılan bilgiler burada tutulur.
+Cache kendiliginde 3 bölümden oluşur .(L1, L2, L3) cache-ler .L Layer - Katman anlamına gelir.
+ L1 en hızlı fakat en küçük kapasiteli olan önbellektir, L3 ise el yavaş fakat en büyük kapasiteli olanidir.
+      L1
+      L2
+      L3
+Aşağıya doğru gittikce kapasite artar hız düşer.
+ Fakat geniş bir çerçevede bakacak olursakbu kapasite ve hız sırasıaşağıdakı gibi olur
+
+          Register    /Karalama defteri
+          L1 Cache    /Birinci katman önbellek 
+          L2 Cache    /İkinci katman önbellek
+          L3 Cache    /Üçüncü katman önbellek
+          RAM         / Random Acces Memory - Bellek
+          Swap        / Pagefile - Bellek uzantısı
+
+      7.Bus interface unit
+Bus interface unit Adress bus (Adres yolu) ve Data bus (Veri yolu) ları nı da kapsayan işlemcinin giriş-çıkış kapısıdır.
+İşlenmek için gönderilen ve işlendikten sonra çıkan veriler bu birim üzerinden girip çıkar.
