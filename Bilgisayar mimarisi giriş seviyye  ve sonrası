@@ -1,12 +1,15 @@
-  Bilgisayar nedir?
+    Bilgisayar nedir?
 Bilgisayar Ingilizce COMPUTER (Common Operated Machine Particulary Used for Technical Education and Research) sözünden gelip,
 "Teknik Araştırma ve Eğitim için Kullanılan Tümleşik Operasyonlu Makine" anlamına gelir.
   
-  Bilgisayarın tarihi 
+
+    Bilgisayarın tarihi 
 Bilgisayarın atası olarak bilinen Abaküs milattan önce 2000 li yıllarda Çinliler tarafından icat edildi.O zamanlarda yalnız
 matematiksel hesaplamalar için kullanılan Abaküs evrimleştirilerek (ABC (Atanasoff Berry Computer), ENİAC (Electronic Numerical Integrator And Computer) ve s.) günümüz bilgisayarlar yapılmıştır.
 
-  Günümüz bilgisayarları daha çok gelişmiş oldukları dolayısıyla bir çok Gelişmış teknolojik bileşenlerden oluşur. Bu bileşenler donanımsal ve yazılımsal donanımılar olatak iki kategöride toplanır
+  
+
+    Günümüz bilgisayarları daha çok gelişmiş oldukları dolayısıyla bir çok Gelişmış teknolojik bileşenlerden oluşur. Bu bileşenler donanımsal ve yazılımsal donanımılar olatak iki kategöride toplanır
 
 1. Donanımsal (Hardware)
   Donanımsal bileşenler de kendi işerisinde üç tipe ayrılıyor.
@@ -23,9 +26,112 @@ matematiksel hesaplamalar için kullanılan Abaküs evrimleştirilerek (ABC (Ata
     3.Application - Uygulama
 
 
-  Bilgisayarlarda iletişim
+    Bilgisayarlarda iletişim
 Bilgisayarlar ve bilgisayar donanımları bir-birleri ile BİT (Binary DigiT)  denilen elektriksel sinyallerle oluşan 
 sayı sistemi ile iletişim kurar.BİT - İkilik sayı sistemidir 1 ve 0 ların çeşitli sıralamalarla dizilmesinden 
 oluşan iletişim kodlarıyla iletişimi sağlar. Bu dizilimler elektrik sinyalinin (verinin) var olup, olmamasından 
-dogan en küçük iletişim birimi olan bitlerin  dizilimidir.Bit dizilimlerinin farklılıklarının 
- 
+dogan en küçük iletişim birimi olan bitlerin  dizilimidir.Bit dizilimlerinin farklılıklarından karakterler oluşur.
+Bu dizilinlerin daha iyi anlaşılması için bazı standartlar yapılmıştır. Bu standartlara  ASCİİ, UTF-8, Unicode ve s.
+örnektir. 
+  mesela ASCİİ kod standartı hakkında detayıl bilgi için https://en.wikipedia.org/wiki/ASCII bağlantısına bakabilirsiniz.
+
+Bilgisayarlar elektronik ürünü oldugu için doğal olarak elektriksel sinyaller sayesinde iletişim kurarlar.Bu elektriksel
+sinyaller bilgisayar bileşenlerini oluşturan devre elementlerinden yönlendirilir.
+
+İnput (Giriş) birimlerinin oluşturduğu sinyaller veri yolları (data bus) üzerinden hedef birimlere ulaştırılır.
+Data bus - veri yolu bilgisayarların (motherboard) ana kartı üzerindeki ve ya birimleri oluşturan yonga ve yonga setleri 
+içerisinde bulunan , bakır ,altın, ve s. yüksek iletkenlikli hatlara verilen isimdir.Bİlgisayarda bulunan Çıkış birimleri 
+de sinyallerin oluşturduğu grafiksel, yazı, ses ve s. çıktıları veren birimlerdir. 
+  
+  
+  Ve gelelim bilgisayarların en önemli birimi olan İşlem birimlerine. İşlem birimleri giriş birimlerinden gelen elsktriksel 
+sinyal ve ya verileri işleyerek uygun birime gönderilecek hale getiren birimlerdir. Bu birimlerin En önemlisi ve bilgisayarın 
+beyni olarak isimlendirilen birim CUP (Central Prosessing Unit0 - İşlemci "Merkezi işlem birimi"-dir.
+
+   CPU / İşlemci
+Bilgisayardakı tüm işlemler CPU da yapılır.
+CPU işlemleri küçük parcalara bölerek işler.Bu parşalara döngü (LOOP) adı verilir.
+Bİlgisayarın aynı anda (bir birim zamanda ) işlaye bildiği döngü sayısı o işlemcinin hızını belirler.
+
+==>>> Mesela 2GHz lik hıza sahip bir işlemci saniyede 2 milyar döngü işleyebilir.Yani 20 saniyelik bir işlem gerektiren 100.000.000 
+döngün işleyebilir.
+
+İşlemci bu yaptığı her  işlemde matematiksel hesaplama yapar.
+
+  İşlemci aynı anda çok sayıda veri işlediği için daha verimli çalışması için, viri işlenmesini bir kaç aşamada yapması için
+kendi içerisinde  7 adet temel birime bölünür.
+  1.Control unit (Kontrol ünitesi)
+  2.Prefetch unit (Önceden getirme ünitesi)
+  3.Decode unit (Kod çözme ünitesi)
+  4.Execution unit (Çalıştırma ünitesi)
+  5.Register (Karalama defteri)
+  6.Cache (Önbellek)
+  7.Bus interface unit (Veri arayüzü (giriş-çıkış) ünitesi)
+
+    1. Control unit
+Bu birim işlemciye gelen ve işlemciden işlenerek çıkan işlemleri organize eder.
+    
+    2.Prefetch unit
+Prefetch unit işlemciye yani Execution unit e komut (İnstruction) gönderir.
+    
+    3.Decode unit 
+Decode unit veriyi Execution unit e göndermeden önce alt parçalara (thread) böler.
+Çözümleme işini yapar.
+    
+    4.Execution unit 
+Bu birim kendisi de iki bölümden oluşur.
+       
+        ALU (Aritmatic Logic Unit) -  Aritmatik Mantık Ünitesii
+            Mantıksal ve temel seviyye matematiksel hesapları işler 
+        
+        FPU (Floating Point Unit) - Kaydırma Noktası Ünitesi
+            İleri seviyye mantıksal hesaplamaları (küsürat alma ve s.) işler
+  
+        
+        ==>>> İşlemcide ileri seviyye hesaplamalar daha az yapıldığından dolayı genelde FPU tekdir
+
+    5.Register
+Register Control unit ve Execution unit işin geçici görevini yapar.Kendisi karalama defteridir.
+
+    6.Cache
+Cache işlemciyle aynı hızda çalışan önbellektir.İşlemcinin not defteridir, işlemci için görev listesidir.
+İşlem yapılırken en sık kullanılan bilgiler burada tutulur.
+Cache kendiliginde 3 bölümden oluşur .(L1, L2, L3) cache-ler .L Layer - Katman anlamına gelir.
+ L1 en hızlı fakat en küçük kapasiteli olan önbellektir, L3 ise el yavaş fakat en büyük kapasiteli olanidir.
+      L1
+      L2
+      L3
+Aşağıya doğru gittikce kapasite artar hız düşer.
+ Fakat geniş bir çerçevede bakacak olursakbu kapasite ve hız sırasıaşağıdakı gibi olur
+
+          Register    /Karalama defteri
+          L1 Cache    /Birinci katman önbellek 
+          L2 Cache    /İkinci katman önbellek
+          L3 Cache    /Üçüncü katman önbellek
+          RAM         / Random Acces Memory - Bellek
+          Swap        / Pagefile - Bellek uzantısı
+
+      7.Bus interface unit
+Bus interface unit Adress bus (Adres yolu) ve Data bus (Veri yolu) ları nı da kapsayan işlemcinin giriş-çıkış kapısıdır.
+İşlenmek için gönderilen ve işlendikten sonra çıkan veriler bu birim üzerinden girip çıkar.
+
+
+        İşlemci Teknolojileri
+
+      
+
+
+
+
+
+
+
+Bu birimler her biri farklı işlemleri gerçekleştirmesi adına her farklı teknolojiler kullanır.
+
+
+
+
+
+
+
+
