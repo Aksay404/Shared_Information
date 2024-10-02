@@ -1,0 +1,31 @@
+  Bilgisayar nedir?
+Bilgisayar Ingilizce COMPUTER (Common Operated Machine Particulary Used for Technical Education and Research) sözünden gelip,
+"Teknik Araştırma ve Eğitim için Kullanılan Tümleşik Operasyonlu Makine" anlamına gelir.
+  
+  Bilgisayarın tarihi 
+Bilgisayarın atası olarak bilinen Abaküs milattan önce 2000 li yıllarda Çinliler tarafından icat edildi.O zamanlarda yalnız
+matematiksel hesaplamalar için kullanılan Abaküs evrimleştirilerek (ABC (Atanasoff Berry Computer), ENİAC (Electronic Numerical Integrator And Computer) ve s.) günümüz bilgisayarlar yapılmıştır.
+
+  Günümüz bilgisayarları daha çok gelişmiş oldukları dolayısıyla bir çok Gelişmış teknolojik bileşenlerden oluşur. Bu bileşenler donanımsal ve yazılımsal donanımılar olatak iki kategöride toplanır
+
+1. Donanımsal (Hardware)
+  Donanımsal bileşenler de kendi işerisinde üç tipe ayrılıyor.
+
+    Bunlar
+      1.İnput   (Giriş)    -    Fare, Klavye, Kamera, Scaner ve. 
+      2.Prosess (İşlem)    -    CPU, GPU, RAM ...
+      3.Output  (Çıkış)    -    Ekran, Yazıcı, Hoparlör, NİC ve s.
+    birimleridir.
+
+2. Yazılımsal (Software)
+    1.BİOS (Basic İnput and Output System) - Temel Giriş ve Çıkış Sistemi. 
+    2.OS (Operation System) - İşletim Sistemi
+    3.Application - Uygulama
+
+
+  Bilgisayarlarda iletişim
+Bilgisayarlar ve bilgisayar donanımları bir-birleri ile BİT (Binary DigiT)  denilen elektriksel sinyallerle oluşan 
+sayı sistemi ile iletişim kurar.BİT - İkilik sayı sistemidir 1 ve 0 ların çeşitli sıralamalarla dizilmesinden 
+oluşan iletişim kodlarıyla iletişimi sağlar. Bu dizilimler elektrik sinyalinin (verinin) var olup, olmamasından 
+dogan en küçük iletişim birimi olan bitlerin  dizilimidir.Bit dizilimlerinin farklılıklarının 
+ 
