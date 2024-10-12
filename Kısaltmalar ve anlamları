@@ -40,23 +40,43 @@ MIPS       - Microprocessor without Interlocked Pipelined Stages
 SSD        - Solid State Drive
 HDD        - Hard Disk Drive
 ZIF        - Zero Insertion Force
-FILO       -
-BSOD       -
-FPGA       -
-DPI        -
-PGA        -
-PPI        -
-UTM        - 
-CLI        -
+FILO       - First In, Last Out
+BSOD       - Blue Screen Of Death
+FPGA       - Field Programmable Gate Arrays
+DPI        - Dots Per Inch
+LGA        - Land Grid Array
+PGA        - Pin Grid Array
+BGA        - Ball Grid Array
+PPI        - Pixel Per Inch
+UTM        - Urchin Tracking Module
+CLI        - Command Line Interface
 DAS        - Direct Attached Storage 
 NAS        - Network Attached Storage
-SAN        -
-GPIO       -
+SAN        - Storage Area Network
+GPIO       - General Purpose Input Output
 RPM        - Revolution Per Minute
-DVI        -
-VGA        -
-HDMI       -
-TDM        -
+DVI        - Digital Visual Interface
+VGA        - Video Graphics Array
+HDMI       - High Definition Multimedia Interface
+TDM        - Time Division Multiplexing
+BBWC       - Battery-Backed Write Cache
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \
