@@ -62,7 +62,10 @@ TDM        - Time Division Multiplexing
 BBWC       - Battery-Backed Write Cache
 DDG        - Distributed Data Guarding
 SLP        - Service Location Protocol
-
+MODEM      - Modulator - Demodulator
+HBA        - Host Bus Adapter
+PAE        - Physical Addressing Extensions
+PSTN       - Public Switched Telephone Network
 
 
 
