@@ -1,0 +1,43 @@
+________________________________________________________________________________________________________________________________
+|   Protokol                |  Port Numarası    | Açıklama                                                                     |
+|---------------------------|-------------------|------------------------------------------------------------------------------|
+| HTTP                      | 80                | Web sayfalarının taşınması için kullanılır.                                  |
+| HTTPS                     | 443               | Güvenli web sayfalarının taşınması için kullanılır.                          |
+| FTP                       | 21                | Dosya transfer protokolü.                                                    |
+| FTPS                      | 989, 990          | Güvenli dosya transferi için kullanılır.                                     |
+| SFTP                      | 22                | SSH üzerinden güvenli dosya transferi.                                       |
+| SSH                       | 22                | Güvenli uzak bağlantı sağlar.                                                |
+| Telnet                    | 23                | Uzak terminal bağlantısı için kullanılır (güvensizdir).                      |
+| SMTP                      | 25                | E-posta gönderme protokolü.                                                  |
+| POP3                      | 110               | E-posta alma protokolü.                                                      |
+| IMAP                      | 143               | E-posta alma ve yönetme protokolü.                                           |
+| SMTPS                     | 465               | Güvenli e-posta gönderimi (SMTP SSL/TLS üzerinden).                          |
+| IMAPS                     | 993               | Güvenli IMAP (SSL/TLS üzerinden).                                            |
+| POP3S                     | 995               | Güvenli POP3 (SSL/TLS üzerinden).                                            |
+| DNS                       | 53                | Alan adı çözümleme hizmeti.                                                  |
+| DNS-over-HTTPS (DoH)      | 443               | DNS sorgularının HTTPS üzerinden güvenli yapılması için.                     |
+| DNS-over-TLS (DoT)        | 853               | DNS sorgularının TLS üzerinden güvenli yapılması için.                       |
+| DHCP                      | 67, 68            | IP adresi dağıtımı (67 sunucu, 68 istemci).                                  |
+| TFTP                      | 69                | Basit dosya transferi (genellikle ağ cihazlarının yapılandırması için).      |
+| SNMP                      | 161, 162          | Ağ yönetim protokolü (161 sorgular, 162 tuzaklar).                           |
+| RDP                       | 3389              | Uzak masaüstü bağlantısı sağlar.                                             |
+| LDAP                      | 389               | Dizin hizmetleri için kimlik doğrulama ve sorgulama.                         |
+| LDAPS                     | 636               | Güvenli LDAP (SSL/TLS üzerinden).                                            |
+| NTP                       | 123               | Saat senkronizasyonu sağlar.                                                 |
+| Kerberos                  | 88                | Kimlik doğrulama protokolü.                                                  |
+| MySQL                     | 3306              | MySQL veritabanı bağlantıları.                                               |
+| PostgreSQL                | 5432              | PostgreSQL veritabanı bağlantıları.                                          |
+| MSSQL                     | 1433              | Microsoft SQL Server veritabanı bağlantıları.                                |
+| Oracle DB                 | 1521              | Oracle veritabanı bağlantıları.                                              |
+| Redis                     | 6379              | Redis veritabanı bağlantıları.                                               |
+| MongoDB                   | 27017             | MongoDB veritabanı bağlantıları.                                             |
+| ElasticSearch             | 9200              | ElasticSearch API bağlantıları.                                              |
+| Memcached                 | 11211             | Bellek önbellekleme için kullanılır.                                         |
+| SMB/CIFS                  | 445               | Dosya paylaşımı (Windows ağları).                                            |
+| Syslog                    | 514               | Sistem logları için uzak sunucuya log gönderimi.                             |
+| BGP                       | 179               | Otoyol yönlendirme protokolü.                                                |
+| OSPF                      | 89                | İç yönlendirme protokolü (Layer 3 yönlendirme).                              |
+| IKE                       | 500               | VPN bağlantıları için anahtar değişimi (IPSec protokolü ile).                |
+| L2TP                      | 1701              | VPN tünel oluşturma protokolü.                                               |
+| PPTP                      | 1723              | Point-to-Point Tünel Protokolü, VPN bağlantısı için.                         |
+|______________________________________________________________________________________________________________________________|
